@@ -19,6 +19,22 @@ public class whatIsJava {
 		 * 
 		 * JAVA Program -> Java Compiler -> Java ByteCode -> Java Intrepreter -> Machine
 		 * Code
+		 *
+		 *
+		 *  Java Source Code (.java file)
+       	 *		 ↓
+		 *	Java Compiler (javac)
+         *		 ↓
+		 *	Java Bytecode (.class file)
+         *		 ↓
+		 *	Java Virtual Machine (JVM: Interpreter + JIT Compiler)
+       	 *		 ↓
+		 *	Machine Code (Executed by CPU)
+		 *
+		 *
+		 *
+		 *
+		 *
 		 * 
 		 * 2 - Java supports call by value only. There is no call by reference in java.
 		 * 
@@ -75,7 +91,7 @@ public class whatIsJava {
 		 * 
 		 * Machine code is a set of instructions that is directly machine-understandable
 		 * and it is processed by the Central Processing Unit (CPU). Machine code is in
-		 * binary (0�s and 1�s) format which is completely different from the byte code
+		 * binary (0�s and 1�s) format which is completely different from the byte code
 		 * and source code.
 		 * 
 		 * Components of JVM
