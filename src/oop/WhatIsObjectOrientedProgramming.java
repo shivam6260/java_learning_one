@@ -3,7 +3,6 @@ package oop;
 public class WhatIsObjectOrientedProgramming {
 
 	public static void main(String[] args) {
-
 		/*
 		 * Smalltalk is considered the first truly object-oriented programming language.
 		 * 
@@ -25,13 +24,13 @@ public class WhatIsObjectOrientedProgramming {
 		 * Object Oriented Language which supports or have features which treats
 		 * everything inside program as objects.
 		 * 
-		 * Because -
+		 * Because
 		 * 
 		 * 1 - Primitive Data Type ex. int, long, bool, float, char, etc
 		 * 
 		 * 2-The static keyword: When we declares a class as static then it can be used
 		 * without the use of an object in Java. If we are using static function or
-		 * static variable then we can’t call that function or variable by using dot(.)
+		 * static variable then we canï¿½t call that function or variable by using dot(.)
 		 * or class object defying object oriented feature.
 		 * 
 		 * 

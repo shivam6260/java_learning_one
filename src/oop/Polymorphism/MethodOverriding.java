@@ -23,7 +23,7 @@ public class MethodOverriding {
 		 * 
 		 * 
 		 * Private methods can not be overridden : Private methods cannot be overridden
-		 * as they are bonded during compile time. Therefore we can’t even override
+		 * as they are bonded during compile time. Therefore we canï¿½t even override
 		 * private methods in a subclass.
 		 * 
 		 * Overriding and constructor : We can not override constructor as parent and
@@ -32,7 +32,7 @@ public class MethodOverriding {
 		 * 
 		 * Overriding and synchronized/strictfp method : The presence of
 		 * synchronized/strictfp modifier with method have no effect on the rules of
-		 * overriding, i.e. it’s possible that a synchronized/strictfp method can
+		 * overriding, i.e. itï¿½s possible that a synchronized/strictfp method can
 		 * override a non synchronized/strictfp one and vice-versa.
 		 * 
 		 * Static binding is done during compile-time while dynamic binding is done
@@ -111,6 +111,7 @@ class Simple1 extends B {
 
 class Parent1 {
 	public static void print() {
+
 		System.out.println("Parent1 , static");
 	}
 }

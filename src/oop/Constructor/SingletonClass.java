@@ -19,6 +19,24 @@ public class SingletonClass {
 	 * the object of this class.
 	 */
 
+	/*
+	Purpose of Singleton Class
+	The primary purpose of a Java Singleton class is to restrict the limit of the number of object creations to only one.
+	This often ensures that there is access control to resources, for example, a socket or a database connection.
+
+	Memory Efficient: As the object creation will take place only once instead of creating it each time a new request is made,
+	which reduces the overhead and makes it memory efficient.
+
+	Resource Control: Restrict the new object creation in multi-threaded and
+	database applications mostly make use of the Singleton pattern in Java for caching, logging, thread pooling,
+	configuration settings, etc.
+
+	Thread Safety: For example, there is a license with us, and
+	we have only one database connection or suppose our JDBC driver does not allow us to do multithreading,
+	then the Singleton class comes into the picture and makes sure that at a time, only a single connection or a single
+	thread can access the connection.
+	 */
+
 	private static SingletonClass obj ;
 	public String str;
 

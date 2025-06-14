@@ -3,13 +3,17 @@ package oop.Polymorphism;
 class Sample1 {
 	// Error
 
-//	public static void run(int a, int b) {
-//		System.out.println("static run method");
-//	}
-//
+	public static void run(int a, int b) {
+		System.out.println("static run method");
+	}
+
 //	public void run(int a, int b) {
 //		System.out.println("run method");
 //	}
+
+	public void run(int a, int b,int c) {
+		System.out.println("run method");
+	}
 }
 
 public class MethodOverloading2 {

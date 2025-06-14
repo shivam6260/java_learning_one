@@ -6,8 +6,7 @@ public class CopyConstructor {
 
 	CopyConstructor(int i, String n) {
 		// Constructor sai hum dono static and non static method ko call kar sakte
-		
-		
+
 		this.calling();
 		this.print();
 		id = i;

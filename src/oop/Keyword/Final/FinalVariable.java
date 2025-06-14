@@ -3,7 +3,7 @@ package oop.Keyword.Final;
 public class FinalVariable {
 	public static void main(String[] args) {
 		/*
-		 * When a variable is declared with final keyword, its value can’t be modified,
+		 * When a variable is declared with final keyword, its value canï¿½t be modified,
 		 * essentially, a constant. This also means that you must initialize a final
 		 * variable.
 		 * 
@@ -93,8 +93,10 @@ class Bike10 {
 
 	Bike10() {
 		this.gear = 100;
-		// speedlimit = 70;
+		//speedlimit = 70;
 		System.out.println(speedlimit);
+		System.out.println(gear);
+
 	}
 
 	public static void main(String args[]) {

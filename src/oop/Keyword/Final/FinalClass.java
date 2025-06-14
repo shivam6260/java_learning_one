@@ -46,13 +46,14 @@ class Sample {
 	public final void run(int a) {
 		System.out.println("run with one parameter");
 	}
+
 	public void print() {
-		System.out.println("sample class print method");
+		System.out.println("Sample class print method");
 	}
 }
 
 class Child extends Sample {
-	//Error
+//	Error
 //	public final void run() {
 //		System.out.println("run 0 parameter");
 //	}
@@ -62,7 +63,7 @@ class Child extends Sample {
 //		System.out.println("run 0 parameter");
 //	}
 	
-	public void print() {
+	public final void print() {
 		System.out.println("Child class print method");
 	}
 	

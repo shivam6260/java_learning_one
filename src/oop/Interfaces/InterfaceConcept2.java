@@ -6,12 +6,16 @@ interface In1 {
 	public static void display() {
 		System.out.println("hello");
 	}
+
+	default void test(){
+		System.out.println("hello");
+	}
 }
 
 class TestClass implements In1 {
 	public static void main(String[] args) {
 		/*
-		 * We can’t use the following modifiers for interface methods.
+		 * We canï¿½t use the following modifiers for interface methods.
 		 * 
 		 * Private protected final static synchronized native strictfp
 		 */

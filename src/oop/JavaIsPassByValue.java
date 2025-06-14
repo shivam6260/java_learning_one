@@ -17,26 +17,28 @@ class Main
   
         
         System.out.println(t.x);
+		System.out.println(t.hashCode());
     }
     
     // O/p = 5
-//    public static void change(Test t)
-//    {
-//        // We changed reference to refer some other location
-//        // now any changes made to reference are not reflected
-//        // back in main
-//        t = new Test();
-//  
-//        t.x = 10;
-//    }
+    public static void change(Test t)
+    {
+        // We changed reference to refer some other location
+        // now any changes made to reference are not reflected
+        // back in main
+		System.out.println(t.hashCode());
+        t = new Test();
+		System.out.println(t.hashCode());
+        t.x = 10;
+    }
   
     // o/p = 10; 
     // This change() doesn't change the reference, it only
     // changes member of object referred by reference
-    public static void change(Test t)
-    {
-        t.x = 10;
-    }
+//    public static void change(Test t)
+//    {
+//        t.x = 10;
+//    }
 }
 
 
@@ -45,6 +47,7 @@ public class JavaIsPassByValue {
 		Integer temp = new Integer(i);
 		i = j;
 		j = temp;
+		System.out.println("i = " + i + ", j = " + j + " Inside swap method");
 	}
 
 	public static void main(String[] args) {

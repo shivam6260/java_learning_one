@@ -9,8 +9,6 @@ public class SuperKeyword {
 		 * Whenever you create the instance of subclass, an instance of parent class is
 		 * created implicitly which is referred by super reference variable.
 		 * 
-		 * which is referred by super reference variable.
-		 * 
 		 * Usage of Java super Keyword
 		 * 
 		 * super can be used to refer immediate parent class instance variable.
@@ -18,6 +16,10 @@ public class SuperKeyword {
 		 * super can be used to invoke immediate parent class method.
 		 * 
 		 * super() can be used to invoke immediate parent class constructor.
+		 */
+
+		/*
+		Cannot be used in Static Context: We cannot use super in a static variable, static method and static block.
 		 */
 	}
 }
@@ -29,21 +31,41 @@ public class SuperKeyword {
 
 class Animal {
 	String color = "white";
-	static int x;
+	int x;
 	final int y = 100;
 	static final int z = 200;
-	private int m = 200;
+	private final int num = 400;
+
+	public static void print() {
+		System.out.println("Static Method");
+	}
 }
 
 class Dog extends Animal {
 	String color = "black";
+	int x = 23;
+	final int y = 101;
+	static final int z = 201;
+
+	public static void test() {
+		System.out.println(z);
+		//System.out.println(super.z);
+	}
 
 	void printColor() {
-		System.out.println(color);// prints color of Dog class
-		System.out.println(super.color);// prints color of Animal class
+		System.out.println(color);
+		System.out.println(x);
+		System.out.println(y);
+		System.out.println(z);
+		// if the name is same in Super class and Sub class then we use Super keyword to access
+		// superclass variable
+
+		System.out.println(super.color);
 		System.out.println(super.x);
 		System.out.println(super.y);
 		System.out.println(super.z);
+		print();
+
 		// Error
 		// System.out.println(super.m);
 	}

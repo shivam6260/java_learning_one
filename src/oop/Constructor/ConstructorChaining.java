@@ -2,8 +2,8 @@ package oop.Constructor;
 
 // Constructor Chaining in Two different Class using Inheritance
 /*
- * Constructor chaining occurs through inheritance. A sub class constructor’s task is to call super class’s constructor first. 
- * This ensures that creation of sub class’s object starts with the initialization of the data members of the super class. 
+ * Constructor chaining occurs through inheritance. A sub class constructors task is to call super classes constructor first.
+ * This ensures that creation of sub classes object starts with the initialization of the data members of the super class.
  * There could be any numbers of classes in inheritance chain. Every constructor calls up the chain till class at the top is reached.
  */
 

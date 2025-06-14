@@ -6,6 +6,12 @@ public class ThisKeyword {
 		 * The this keyword can be used to refer current class instance variable.
 		 * 
 		 */
+
+		/*
+		1) this: To Refer Current Class Instance Variable
+		2) this: To Invoke Current Class Method
+		3) this(): To Invoke the Current Class Constructor
+		 */
 	}
 
 }
@@ -64,7 +70,7 @@ class TestThis5 {
 }
 
 /*
- * Using ‘this’ keyword to return the current class instance
+ * Using ï¿½thisï¿½ keyword to return the current class instance
  */
 class Test {
 	int a;
